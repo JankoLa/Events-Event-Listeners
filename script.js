@@ -9,6 +9,17 @@ $("#but").text("Done")
 });
 
 $("#but3").on("click", () => {
-$("button").css({backgroundColor: "red"})
+$("button").css({backgroundColor: "blue"})
 });      
    
+$(".input1").on("click", () => {
+$("button").css({backgroundColor: "brown"})
+}); 
+
+$(".input2").on("click", () => {
+$("button").css({backgroundColor: "grey"})
+}); 
+
+$(".input3").on("click", () => {
+$("button").css({backgroundColor: "aqua"})
+}); 
